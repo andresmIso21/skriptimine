@@ -1,12 +1,14 @@
 #!/bin/bash
-#skript kuupäeva ja aja väljastamiseks
+#
+# Programm väljastab kuupäeva ja aja
+echo 
+date +"Täna on %A %B %d, %Y" 
+date +"Kellaaeg on %H:%M" 
+echo 
+echo -n "Kalender" 
+echo
+echo
+echo -n
+echo `date +"%B %Y"` 
+cal | tail -n 7
 
-echo
-echo -n "Tänane kuupäev on " 
-date +"%A, %B %d %Y"
-echo -n "Kellaaeg on " 
-date +"%R"
-echo
-echo -n "Ülevaade kalendriseisust: "
-echo  
-cal
